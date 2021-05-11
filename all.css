@@ -2,5 +2,6 @@ html {
   font-size: 14px;
 }
 .main {
-  min-height: calc(100vh- (49px + 49px + 42px + 14px));
+  /* 讓footer永遠在最下方的方法(當頁面不夠高時) */
+  min-height: calc(100vh - (49px + 49px + 42px + 14px));
 }
